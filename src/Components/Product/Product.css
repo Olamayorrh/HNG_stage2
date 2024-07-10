@@ -1,0 +1,401 @@
+.imageContainer{
+    width:632px;
+    height:508px;
+    background-color: #FFFFFF;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+
+}
+
+.container8 .parent{
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap:400px; */
+    /* margin: 24px 100px; */
+    border: 0px solid green;
+    width:1440px;
+   
+}
+
+.identity{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    /* gap:30px; */
+    /* width: 100%; */
+    border: 0px solid blue;
+}
+
+.container8{
+    background-color: #F2F2F8;
+}
+
+.imageContainer #img1{
+    width:270px;
+    height:300px;
+    margin: 140px;
+
+}
+
+.imageContainer .rate{
+    width:72px;
+    height:72px;
+    border-radius: 231.9px;
+    background-color: white;
+    margin-top: -380px;
+    
+}
+
+.imageContainer #img5{
+    width: 37.1px;
+    height: 33.39px;
+
+}
+
+.identity .images{
+    width:251.43px;
+    height:88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 12.57px;
+    gap:18.86px;
+    background-color: #FFFFFF;
+    margin: 30px;
+    
+    
+}
+
+
+
+.images #img2{
+    width:48.31px;
+    height:53.43px;
+   
+}
+
+.images #img3{
+    width:21.87px;
+    height:53.43px;
+    
+}
+
+.images #img4{
+    width:40.63px;
+    height:53.43px;
+    
+}
+
+.images .div1{
+    width:62.86px;
+    height:62.86px;
+    border-radius: 8px;
+    border:1px solid #24293F;
+    background-color: #F2F2F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images .div2{
+    width: 62.86px;
+    Height: 62.86px;
+    border-radius: 8px;
+    background-color: #F2F2F8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* styling second container */
+
+.sideDiv .detail{
+    width:527px;
+    
+    height:574px;
+    display:flex;
+    flex-direction: column;
+    justify-content: start; 
+    /* align-items: center;  */
+    
+    border:0px solid black;
+}
+
+.upperDiv{
+    width:527px;
+    height:259px;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    gap:28px;
+}
+
+.upperDiv .ratings{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width:527px;
+    width: 84px;
+    gap:8px;
+}
+
+.upperDiv .ratings #name{
+    width:527px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 36px;
+    color:#24293F;
+}
+
+.upperDiv .ratings .price{
+    width:527px;
+    height:33px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratings .price #price{
+    width:111px;
+    height:33px;
+    font-weight: 500;
+    font-size: 28px;
+    color: #24293F;
+}
+
+.upperDiv .price .review{
+    width: 237.28px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.upperDiv #des{
+    width: 527px;
+    height: 147px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #737584;
+    
+}
+
+.detail hr{
+    width: 527.5px;
+    border: 0.5px solid #737584;
+    color: #737584;
+    margin: 20px 0;
+    opacity: 50%;
+    
+}
+
+.detail .div2{
+    width:527px;
+    height:75px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: start;
+    gap:10px;
+
+
+}
+
+.detail .div2 .color{
+    width:188px;
+    height:55px;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    gap:8px;
+}
+
+.div2 .color #select{
+    width:151px;
+    height:19px;
+    font-weight: 400;
+    border: 0px solid red;
+
+}
+
+.div2 .color .colors{
+    width: 188px;
+    height:28px;
+    display: flex;
+    justify-content: start;
+    gap:12px;
+
+}
+
+.colors .imgg{
+    width:28px;
+    height:28px;
+    border-radius: 50px;
+    border: 1px solid #24293F ;
+}
+
+.parent .quant{
+    width:527px;
+    height:48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quant .btn{
+    width:157px;
+    height:48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:24px;
+}
+
+.quant .btn #minus{
+    width:48px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #737584;
+}
+
+.quant .btn #plus{
+    width:48px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #24293F;
+}
+
+.quant .btn #num{
+    width:13px;
+    height: 33px;
+    font-weight: 500;
+    font-size: 28px;
+    border-radius: 12px;
+    color: #24293F;
+}
+
+.quant .unit{
+    width:102px;
+    height:21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: 0px solid green;
+}
+
+.quant .unit .numb{
+    
+    width: 102px;
+    height: 21px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap:4px;
+    border: 0px solid yellow;
+    
+    
+}
+
+.unit .numb #imgg2{
+    width:16px;
+    height:16px;
+    border-radius: 200px;
+    border: 1.5px solid #E90707;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quant .unit .numb #left{
+    width:82px;
+    height:21px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #E90707;
+}
+
+.detail .now{
+    width:527px;
+    height:48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 30px 0; */
+}
+
+.detail .now .btt1{
+    width:235px;
+    height: 48px;
+    border-radius: 12px;
+    padding:16px 12px 16px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    background-color: #24293F;
+}
+
+.detail .now .btt2{
+    width:235px;
+    height: 48px;
+    border-radius: 12px;
+    padding:16px 12px 16px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #24293F;
+    border:1px solid #24293F;
+}
+
+.sideDiv .frame{
+    width:523px;
+    height: 19px;
+    display: flex;
+    border: 0px solid red;
+    margin-top: 30px;
+    gap:31px;
+}
+
+.sideDiv .frame #frame1{
+    width:154px;
+    height: 19px;
+    font-weight: 400;
+    color: #737584;
+}
+
+.sideDiv .frame #frame2{
+    width:126px;
+    height: 19px;
+    font-weight: 400;
+    color: #737584;
+}
+
+.sideDiv .frame #frame3{
+    width:107px;
+    height: 19px;
+    font-weight: 400;
+    color: #737584;
+}
+
+.sideDiv{
+    border: 0px solid red;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}

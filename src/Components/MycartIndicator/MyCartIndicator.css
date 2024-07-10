@@ -1,0 +1,25 @@
+.containerr{
+    width:100%;
+    height:67px;
+    padding: 24px 100px 24px 100px;
+    display:flex;
+    gap:10px;
+    justify-content: start;
+    align-items: start;
+    background-color: #F2F2F8;
+}
+
+.indicate{
+    width:122px;
+    height:19px;
+    color: #737584;
+    display:flex;
+    gap:10px;
+    justify-content: start;
+    align-items: start;
+}
+
+.indicate #cart{
+    
+    color:#24293F;
+}

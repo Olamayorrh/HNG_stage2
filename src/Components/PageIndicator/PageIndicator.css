@@ -1,0 +1,29 @@
+.container3{
+    width:100%;
+    height:72px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 100px 24px 100px;
+    background-color: #F2F2F8;
+}
+
+.dropdown{
+    width:82px;
+    height:24px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.dropdown #sort{
+    font-weight: 500;
+    color:#24293F;
+}
+
+.dropdown #img1{
+    width:24px;
+    height: 24px;
+}
+

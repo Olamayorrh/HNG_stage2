@@ -1,0 +1,445 @@
+*{
+   margin:0px;
+   padding:0px;
+   box-sizing: border-box; 
+}
+.container5{
+    width:100%;
+    height:440px;
+    background-color: #000000;
+    color: white;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border: 0px solid red;
+}
+
+.outerContain{
+    width:1134px;
+    height:203px;
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid yellow;
+   
+    
+    /* align-items: center; */
+   
+}
+
+.outerContian .div1{
+    width:217px;
+    height:185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.outerContain .sub{
+    width:178px;
+    height:121px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap:24px;
+    border: 0px solid red;
+}
+
+.outerContain .logo{
+    width:157px;
+    height:33px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:4px;
+}
+
+.outerContain .mail{
+    width:217px;
+    height:48px;
+    border: 1.5px solid #FAFAFA;
+    border-radius: 12px;
+    display:flex;
+    justify-content: space-between;
+    padding: 12px 16px 12px 16px;
+    margin-top: 5px;
+}
+
+.outerContain .mail ::placeholder{
+    width: 107px;
+    height: 19px;
+    opacity: 40%;
+    font-weight: 400;
+    color: #FAFAFA;
+}
+
+.mail #mssg{
+    width:24px;
+    height:24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub .offf{
+    border: 0px solid white;
+    width: 178px;
+    height:19px ;
+    font-weight: 400;
+    color: #FAFAFA;
+}
+
+.sub .off{
+    width:79px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FAFAFA;
+}
+
+.sub .subscribe{
+    width:79px;
+    height:21px;
+    
+}
+
+.mail input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.logo #img1{
+    width:28px;
+    height:28px;
+}
+
+.logo #logo{
+    width:125px;
+    height:33px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+
+/* End of div1. styling div2 */
+
+.outerContain .div2{
+    width:175px;
+    height:153px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap:24px;
+}
+
+.div2 h3{
+    width:63px;
+    height:21px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FAFAFA;
+}
+
+.div2 .addr{
+    width: 175px;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap:16px;
+}
+
+.div2 #add1{
+    width: 175px;
+    height: 38px;
+    font-weight: 400;
+    color: #FAFAFA;
+}
+
+.div2 #add2{
+    width: 158px;
+    height: 19px;
+    font-weight: 400;
+    color: #FAFAFA;
+}
+
+.div2 #num{
+    width: 139px;
+    height: 19px;
+    font-weight: 400;
+    color: #FAFAFA;
+}
+
+/* End of div2 */
+
+/* Styling div3 */
+
+.outerContain .div3{
+    width: 104px;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap:24px;
+}
+
+.div3 h3{
+    width:66px;
+    height:21px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.div3 .fam{
+    width: 104px;
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+    color: #FAFAFA;;
+}
+
+.div3 #acct{
+    width:81px;
+    height:19px;
+    font-weight: 400;
+}
+
+
+.div3 #log{
+    width:104px;
+    height:19px;
+    font-weight: 400;
+
+}
+
+.div3 #cart{
+    width:29px;
+    height:19px;
+    font-weight: 400;
+    
+}
+
+.div3 #shop{
+    width:36px;
+    height:19px;
+    font-weight: 400;
+    
+}
+
+.outerContain .div4{
+    width:92px;
+    height: 169px;
+    display:flex;
+    flex-direction: column;
+    
+    gap:24px;
+    border: 0px solid blue;
+}
+
+.div4 h3{
+    width:82px;
+    height:21px;
+    font-weight: 500;
+    font-size: 17px;
+    border: 0px solid greenyellow;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.div4 .terms{
+    width:92px;
+    height:124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+    
+}
+
+.div4 .terms #privy{
+    width:92px;
+    height:19px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.div4 .terms #term{
+    width:91px;
+    height:19px;
+    font-weight: 400;
+}
+
+.div4 .terms #faq{
+    width:30px;
+    height:19px;
+    font-weight: 400;
+}
+
+.div4 .terms #cont{
+    width:54px;
+    height:19px;
+    font-weight: 400;
+}
+
+/* End of div4 stylying div5 */
+
+.outerContain .div5{
+    width:198px;
+    height:203px;
+    display:flex;
+    flex-direction: column;
+    justify-content: start; 
+    align-items: center; 
+    border: 0px solid greenyellow;
+    gap:24px;
+    color: #FAFAFA;
+    /* margin-top: 30px; */
+    
+}
+
+.div5 .download{
+    width:198px;
+    height:155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap:24px;
+}
+
+.div5 h3{
+    width:115px;
+    height:21px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid greenyellow;
+}
+
+.div5 .save{
+    width:198px;
+    height:110px;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.div5 .save #save{
+    width: 171px;
+    height:18px;
+    opacity: 70%;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.div5 .save .qrcode{
+    width:198px;
+    height:84px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.div5 .save .qrcode #qrcode{
+    width:80px;
+    height:80px;
+    border-radius: 4px;
+    color: #000000;
+}
+
+.div5 .store{
+    width:110px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:4px;
+}
+
+.div5 .socials{
+    width:168px;
+    height:24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:24px;
+}
+
+.div5 .socials .soc{
+    width:24px;
+    height:24px;
+}
+
+.container5 .footy{
+    width: 100%;
+    height: 36px;
+    opacity: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid yellowgreen;
+    gap:16px;
+    
+
+}
+
+.container5 .footy .line{
+    width: 100%;
+    opacity: 50%;
+    
+    /* margin-top: 200px; */
+}
+
+.container5 .footy .copyright{
+    width:291px;
+    height:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    opacity: 60%;
+    margin-bottom: -180px;
+    border: 0px solid red;
+}
+
+.footy .copyright .copy{
+    width:291px;
+    height:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    
+    
+    
+
+}
+
+.footy .copyright .copy #icon{
+    width: 20px;
+    height:20px;
+}
+
+.footy .copyright .copy #rimel{
+    width:265px;
+    height:19px;
+    font-weight: 400;
+    color: #FFFFFF;
+}

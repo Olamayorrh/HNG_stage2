@@ -1,0 +1,473 @@
+.mainContain{
+    width:713px;
+    height:194px;
+    border-radius: 16;
+    background-color:#FFFFFF;
+    display: flex;
+    border: 0px solid blue;
+    align-items: center;
+    gap:400px;
+    padding: 0 0 0 20px;
+    
+    
+}
+
+
+
+.container8{
+    background-color: #F2F2F8;
+}
+
+.mainContain .bond{
+    width:564;
+    width:154px;
+    display: flex;
+    gap:20px;
+   /* justify-content: center; */
+   align-items: center;
+}
+
+.mainContain .sample{
+    width:252px;
+    height:154px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #F2F2F8;
+    padding: 20px;
+}
+
+.mainContain .sample .hset{
+    width:116px;
+    height: 128px;
+    padding: 12px;
+}
+
+.mainContain .sample .fav{
+    width:32px;
+    height: 32px;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.mainContain .sample .like{
+    width:16px;
+    height:14.4px;
+    
+    
+}
+
+.bond .sample{
+    width:252px;
+    height: 154px;
+    border-radius: 12px;
+    color: #F2F2F8;
+    border: 0px solid red;
+    
+
+}
+
+.mainContain .detail{
+    width:292px;
+    height:117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    border: 0px solid red;
+}
+
+.mainContain .detail .air{
+    width:292px;
+    height:77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap:12px;
+    
+}
+
+.mainContain .detail .dolls{
+    width:292px;
+    height:24px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mainContain .unit{
+    width:98.83px;
+    height:107px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap:28px;
+    border: 0px solid red;
+}
+
+.detail .air .perfect{
+    width:292px;
+    height:51px;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap:8px;
+    
+}
+
+.detail .air .perfect .newpod{
+    width:300px;
+    height:24px;
+    border: 0px solid red;
+    /* display: flex;
+    justify-content: space-between; */
+    
+
+}
+
+.detail .air .perfect .blend{
+    width:263px;
+    height:19px;
+    font-weight: 400;
+    color: #737584;
+}
+
+.detail .likes{
+    width:170.97px;
+    height:14px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:4px;
+    border: 0px solid red;
+}
+
+.detail .likes .flex{
+    width:96.97px;
+    height:12.99px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 8px;
+    
+
+}
+
+.detail .likes .reviews{
+    width:70px;
+    height:14px;
+    font-size: 12px;
+    color: #737584;
+}
+
+.unit .del{
+    width: 18.67px;
+    height:24px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.unit .al{
+    width:94px;
+    height:55px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+    
+}
+
+.unit .al .units{
+    width: 94px;
+    height:19px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unit .al .motiv{
+    width:80px;
+    height:24px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap:12px;
+    margin: 10px 0;
+    
+}
+
+.motiv .minus{
+    width:24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #F1F1F1;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.motiv .num{
+    width:8px;
+    height:19px;
+    font-weight: 500;
+    
+    /* text-align: center; */
+}
+
+.motiv .plus{
+    width:24px;
+    height:24px;
+    border-radius: 4px;
+    background-color: #141416;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.air .perfect .para{
+    width:135px;
+    height:24px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #24293F;
+    border: 0px solid green;
+    display: flex;
+    justify-content: start;
+    
+}
+
+/* styling order's summary */
+
+
+
+ .summary{
+    width: 471px;
+    height: 502px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border: 0px solid black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+
+.master{
+    border: 0px solid red;
+    /* background-color: rgb(175, 175, 218); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+
+    
+}
+.summary #checkout{
+    width: 423px;
+    height:48px;
+    border-radius: 12px;
+    padding: 8px;
+    background-color: #24293F;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 60px 0 20px 0;
+}
+
+.summary .sum{
+    width:423px;
+    height: 341px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 0px solid red;
+    gap:28px;
+}
+
+.summary .sum .uppersum{
+    width:423px;
+    height:261px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap:24px;
+   
+
+}
+
+.summary .sum .uppersum #head{
+    width: 423px;
+    height:33px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #24293F;
+}
+
+.summary .uppersum .analy{
+    width:423px;
+    height:204px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border: 0px solid yellowgreen;
+    gap:36px;
+}
+
+.summary .analy .subt{
+    width:423px;
+    height:24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary .subt #sub{
+    width: 73px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #737584;
+}
+
+.summary .subt #tot{
+    width: 89px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #24293F;
+}
+
+.summary .sum .dis{
+    width: 423px;
+    height: 24px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary .dis #disc{
+    width: 83px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #737584;
+}
+
+.summary .dis #zero{
+    width:67px;
+    height:24px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #24293F;
+}
+
+.summary .sum .deli{
+    width: 423px;
+    height: 24px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary .sum .deli #delifee{
+    width:106px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #737584;
+}
+
+.summary .sum .deli #free{
+    width:38px;
+    height:24px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #24293F;
+}
+
+.summary .sum .coupon{
+    width: 141px;
+    height: 24px;
+    display: flex;
+    justify-content: start;
+    
+    gap:8px;
+}
+
+.summary .sum .coupon #coup{
+    width:109px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #737584;
+    display: flex;
+    justify-content: start;
+}
+
+.summary .sum .coupon #circle{
+    width:24px;
+    height: 24px;
+}
+
+.summary .sum hr{
+    width:423px;
+    border:0.5px dashed #737584;
+    opacity: 50%;
+}
+
+.summary .sum .totp{
+    width: 423px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary .sum #totp{
+    width:95px;
+    height:24px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #737584;
+}
+
+.summary .sum #amt{
+    width:89px;
+    height:24px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #24293F;
+}
+
+.outbox{
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.cartty{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px 100px 24px 100px;
+    background-color: #F2F2F8;
+    gap:30px;
+    margin-left: -360px;
+    /* width:100%; */
+}

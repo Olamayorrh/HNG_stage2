@@ -1,0 +1,124 @@
+
+/* styling container1 class */
+*{
+    box-sizing: border-box;
+}
+.container1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F2F8;
+    width:100%;
+    height:96px;
+    padding: 24px 100px 24px 100px;
+    border-bottom: 1px solid #737584;
+
+    
+}
+
+.logo{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    width:413.33px;
+    height:33px;
+    border:0px solid black;
+}
+
+.shoplogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid blue;
+    width:157px;
+    height: 33px;
+}
+
+
+.search{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    width:413.33px;
+    height:48px;
+    padding: 12px;
+    gap:8px;
+    border: 0px solid black;
+    border-radius: 12px;
+    background-color: white;
+    
+  
+}
+
+#searchlogo{
+    width:24px;
+    height: 24px;
+
+}
+
+.search ::placeholder{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.search input{
+    border: none;
+    outline: none;
+}
+
+.lan{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    width: 413.33px;
+    height:25px;
+    gap:48px;
+    border: 0px solid black;
+}
+
+.lan .lang{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:51px;
+    height:24px;
+    gap:4px;
+}
+
+.lan #img2{
+    width:24px;
+    height:24px;
+}
+
+.cart{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:28px;
+    width:130px;
+    height:25px;
+
+}
+
+.cart .cartImage{
+    width:24px;
+    height:24px;
+}
+
+.cart #avatar{
+    width:26px;
+    height:25px;
+    border-radius: 200px;
+}
+
+.logo #img1{
+    width:28px;
+    height: 28px;
+    
+}
+
+
+.logo #show{
+    font-size: 28px;
+    font-weight:700;
+}
