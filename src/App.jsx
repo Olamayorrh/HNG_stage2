@@ -14,7 +14,7 @@ const App = ()=> {
 
       
           <Routes>
-              <Route path="/" element={<MyCartDisplay/>}></Route>
+              <Route path="/" element={<LandingPage/>}></Route>
               <Route path="/product/:productid" element={<Product/>}></Route>
               <Route path="/product/Mycart" element={<MyCartDisplay/>}></Route>
               <Route path="/product/CheckOut" element={<CheckOut/>}></Route>
