@@ -18,6 +18,7 @@ import Footer from "../Footer/Footer"
 import PageIndicator from "../PageIndicator/PageIndicator"
 
 import { productContext } from "../ContextComponent/Context";
+import { Link } from "react-router-dom";
 
 
 const Product = () =>{
@@ -28,9 +29,9 @@ const Product = () =>{
 
                 
                 {
-                    info.map((product)=>(
+                    info.map((product,index)=>(
 
-                        <div key={product.id}>
+                        <div key={index}>
                                 <Header/>
                                 <SubHeader/>
                                 <PageIndicator/>
@@ -112,7 +113,7 @@ const Product = () =>{
                                             
                                             <div className="now">
                                                 <button className="btt1">Buy Now</button>
-                                                <button className="btt2">Add to Cart</button>
+                                                <Link to="/product/Mycart"><button className="btt2">Add to Cart</button></Link>
                                             </div>
 
 

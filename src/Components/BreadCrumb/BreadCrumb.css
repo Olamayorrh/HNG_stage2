@@ -1,0 +1,14 @@
+.check-top {
+  width: 100%;
+  height: 67px;
+  display: flex;
+  place-items: center;
+  padding-left: 80px;
+  gap: 10px;
+  background-color: #f2f2f8;
+}
+
+.bread-home,
+.bread-cart {
+  color: #babbc5;
+}

@@ -2,6 +2,7 @@ import MyCart from "./MyCart";
 import circle from "../../assets/images/circle.png"
 import "./MyCart.css"
 import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
 
 
  const MyCartFlexed = ()=>{
@@ -43,7 +44,7 @@ import Footer from "../Footer/Footer";
                                 <p id="amt">$1095.00</p>
                             </div>
                         </div>
-                        <button id="checkout">Proceed to checkOut</button>
+                        <Link to="/product/CheckOut"><button id="checkout">Proceed to checkOut</button></Link>
 
 
                     </div>
